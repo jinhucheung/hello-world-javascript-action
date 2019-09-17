@@ -10,5 +10,5 @@ outputs:
   time:
     description: The time we greeted you
 runs:
-  using: nodej12
+  using: node12
   main: index.js
