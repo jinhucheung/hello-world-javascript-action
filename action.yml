@@ -1,0 +1,14 @@
+name: Hello World
+description: Greet someone and record the time
+author: Jim Cheung
+inputs:
+  who-to-greet:
+    description: Who to greet
+    required: true
+    default: world
+outputs:
+  time:
+    description: The time we greeted you
+runs:
+  using: nodej12
+  main: index.js
